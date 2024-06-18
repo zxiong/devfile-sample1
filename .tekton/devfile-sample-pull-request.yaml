@@ -24,7 +24,7 @@ spec:
   - name: image-expires-after
     value: 5d
   - name: output-image
-    value: quay.io/zxiongtest/testrepo1:on-devfile-pr4-{{revision}}
+    value: quay.io/zxiongtest/testrepo1:on-devfile-pr1-{{revision}}
   - name: revision
     value: '{{revision}}'
   pipelineSpec:
